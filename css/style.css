@@ -1,0 +1,151 @@
+
+:root {
+    --page-background-clr: #F9F9FB;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--page-background-clr);
+    color: #1f1f1f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+header {
+    text-align: center;
+    padding: 12px 40px;
+    border-bottom: 1px solid lightgrey;
+}
+#dns-logo {
+    width: 80px;
+}
+
+form {
+    margin-left: 60px;
+}
+
+#domain-input {
+    width: 320px;
+    padding: 3px;
+}
+
+#submit-input {
+    padding: 3px;
+}
+
+main {
+    display: flex;
+}
+
+input {
+    padding: 0px 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.error-msg {
+    color: red;
+}
+
+
+
+.sections {
+    /* width: 50%; */
+    padding: 20px;
+    text-align: left;
+}
+
+.dns-records {
+    width: 60%;
+    border-right: 1px solid lightgray;
+}
+
+#dns-table {
+    margin-top: 40px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    color: #c26b1d;
+}
+
+th,
+tr,
+td {
+    border-bottom: 1px solid lightgrey;
+}
+
+td {
+    word-wrap: break-word;
+    /* max-width: 600px; */
+}
+
+th,
+tr,
+td {
+    /* border: 1px solid black; */
+    padding: 9px;
+}
+
+.domain-column {
+    width: 30%;
+}
+
+.answer-column {
+    width: 44%;
+}
+
+.type-column,
+.ttl-column {
+    width: 10%;
+}
+
+.prior-column {
+    width: 6%;
+}
+
+
+.exe-time {
+    margin-top: 60px;
+}
+
+
+
+
+.info {
+    width: 40%;
+    display: flex;
+}
+
+.info-left {
+    width: 60%;
+}
+
+.info-right {
+    width: 40%;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.danger {
+    color: firebrick;
+}
